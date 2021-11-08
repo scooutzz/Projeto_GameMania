@@ -7,10 +7,11 @@
 }
 header {
     height: 150px;
+    background-color: #212121;
 }
 
 .container_grid {
-    width: 1700px;
+    width: 1920px;
     margin: 0 auto;
 }
 
@@ -28,7 +29,7 @@ header {
 }
 
 .menu a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -36,7 +37,7 @@ header {
 }
 
 .banner {
-    background-image: url(../img/banner123.png);
+    background-image: url(../img/tinytinas.png);
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,4 +57,38 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+}
+
+.texto_banner a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 10px;
+}
+
+.secao_imagens {
+    height: 200px;
+    background-color: black;
+}
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1725px;
+}
+
+.secao_produtos {
+    height: 1335px;
+    background-color: #212121;
+}
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1725px;
+    flex-wrap: wrap;
 }
