@@ -11,7 +11,7 @@ header {
 }
 
 .container_grid {
-    width: 1920px;
+    width: 1870px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     padding: 15px;
-    border: 10px;
+    border-radius: 10px;
 }
 
 .secao_imagens {
@@ -86,9 +86,123 @@ header {
 }
 .produtos {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     max-width: 1725px;
     flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.produtos h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.produtos h2 {
+    color: royalblue;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+}
+.secao_footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+}
+
+.navegue {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.navegue h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navegue a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.recursos {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.recursos h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.recursos a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.social {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.social h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.social a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.loja {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.loja h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.loja a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.devs {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.devs h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.devs a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
 }
