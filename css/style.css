@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
 * {
     margin: 0;
@@ -6,12 +7,12 @@
     box-sizing: border-box;
 }
 header {
-    height: 150px;
+    height: 130px;
     background-color: #212121;
 }
 
 .container_grid {
-    width: 1870px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -36,11 +37,16 @@ header {
     font-size: 36px;
 }
 
+.barras {
+    width: 30px;
+    display: none;
+}
+
 .banner {
-    background-image: url(../img/tinytinas.png);
+    background-image: linear-gradient(rgba(0, 0, 0 ,0.5), rgba(0, 0, 0 ,0.5)), url(../img/tinytinas.png);
     height: 550px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
 }
 
@@ -106,6 +112,7 @@ header {
     text-transform: uppercase;
 }
 
+/* footer */
 footer {
     height: 200px;
     background-color: black;
@@ -205,4 +212,133 @@ footer {
     text-decoration: none;
     font-size: 18px;
 
+}
+
+@media screen and (max-width: 1380px) {
+    header {
+        height: 120px;
+    }
+   .posicionamento_header img {
+       max-width: 90%;
+       max-height: 100px;
+   }
+
+   .menu{
+       width: 700px;
+   }
+   .menu a {
+        font-size: 16px;
+        padding-right: 15px;
+   }
+   .secao_imagens {
+       height: 150px;
+       width: 100%;
+   }
+   .imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+   }
+   .imagens img {
+       max-height: 130px;
+       max-width: 100%;
+   }
+
+   .produtos img {
+       max-width: 400px;
+       max-height: 100%;
+   }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .banner {
+        height: 360px;
+    }
+
+    .posicionamento_header {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 130px;
+        height: 200px;
+        background-color: black;
+        border-radius: 15px;
+        padding: 15px;
+        position: absolute;
+        top: 0;
+        right: 70px;
+    }
+
+    .menu a {
+        text-align: center;
+    }
+
+    .barras {
+        display: inline-block;
+        width: 60px;
+    }
+
+    .secao_imagens {
+        display: none;
+    }
+
+    .produtos img {
+        max-width: 270px;
+    }
+
+
+    /* footer */
+    .navegue h1 {
+        font-size: 20px;
+    }
+
+    .navegue a {
+        font-size: 16px;
+    }
+
+    .recursos h1 {
+        font-size: 20px;
+    }
+
+    .recursos a {
+        font-size: 16px;
+    }
+    
+    .social h1 {
+        font-size: 20px;
+    }
+
+    .social a {
+        font-size: 16px;
+    }
+
+    .loja h1 {
+        font-size: 20px;
+    }
+    
+    .loja a {
+        font-size: 16px;
+    }
+
+    .devs h1 {
+        font-size: 20px;
+    }
+    
+    .devs a {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    
 }
