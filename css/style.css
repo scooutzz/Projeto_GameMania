@@ -74,18 +74,6 @@ header {
     border-radius: 10px;
 }
 
-.secao_imagens {
-    height: 200px;
-    background-color: black;
-}
-.imagens {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    max-width: 1600px;
-}
-
 .secao_produtos {
     height: 1335px;
     background-color: #212121;
@@ -213,54 +201,166 @@ footer {
     font-size: 18px;
 
 }
-@media screen and (max-width: 1600px) {
 
-    .secao_imagens {
-        display: none;
-    }
+/* css da página "jogar" */
 
+.carrossel_jogar img {
+    width: 100%
 }
-@media screen and (max-width: 1380px) {
-    header {
-        height: 120px;
-    }
-   .posicionamento_header img {
-       max-width: 90%;
-       max-height: 100px;
-   }
 
-   .menu{
-       width: 700px;
-   }
-   .menu a {
-        font-size: 16px;
-        padding-right: 15px;
-   }
-
-   .imagens {
+.secao_gamepass {
+    height: 730px;
+    background-color: #212121;
+}
+.secao_gamepass p {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-   }
-   .imagens img {
-       max-height: 130px;
-       max-width: 100%;
-   }
-
-   .produtos img {
-       max-width: 400px;
-       max-height: 100%;
-   }
-
+    background-color: blue;
+    border-radius: 10px;
+    color:black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    max-width: 265px;
+    margin: 10px 0 30px 35px;
+    justify-content: center;
 }
-@media screen and (max-width: 1240px) {
-    
-    .secao_produtos {
-        height: 1600px;
-    }
-
+.gamepass {
+    display: flex;
+    flex-direction: column;
 }
+.gamepass h1 {
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 60px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+}
+.gamepass_lancamentos {
+    display: flex;
+    flex-direction: row;
+}
+
+.gm-cont {
+    padding: 15px 15px 0 15px;
+}
+
+.gamepass_lancamentos img {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.gamepass_lancamentos h2 {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    padding: 5px;
+}
+
+.gamepass_lancamentos a {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background-color: blue;
+    margin: 0 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+/* css da página "login" */
+
+.login-container {
+    background-color: #212121;
+    display: flex;
+    height: 630px;
+}
+
+.cadastro-cont {
+    height: 100%;
+}
+
+.cadastro {
+    margin: 50px 300px;
+}
+
+.login-cont {
+    height: 100%;
+}
+
+.login {
+    margin: 50px 300px;
+}
+
+.cadastro h2 {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.login h2 {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.campo {
+    color: white;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.campo label {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.campo input {
+    color: black;
+    border: 2px solid blue;
+    width: 300px;
+    border-radius: 7px;
+}
+
+.senha {
+    margin-bottom: 30px;
+}
+
+.login-container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
