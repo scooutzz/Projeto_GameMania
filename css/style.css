@@ -42,38 +42,6 @@ header {
     display: none;
 }
 
-.banner {
-    background-image: linear-gradient(rgba(0, 0, 0 ,0.5), rgba(0, 0, 0 ,0.5)), url(../img/tinytinas.png);
-    height: 550px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
-}
-
-.itens_banner {
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.texto_banner {
-    color: white;
-    width: 300px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-}
-
-.texto_banner a {
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px;
-    border-radius: 10px;
-}
-
 .secao_produtos {
     height: 1335px;
     background-color: #212121;
@@ -362,7 +330,6 @@ footer {
 /* css da página deispositivos */
 
 .con_titulo {
-    
     text-align: center;
 }
 
