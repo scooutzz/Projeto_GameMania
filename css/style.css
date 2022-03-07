@@ -23,6 +23,16 @@ header {
     align-items: center;
 }
 
+.carousel-item h5 {
+    background-color: #212121;
+    padding: 5px;
+}
+
+.carousel-item p {
+    background-color: #212121;
+    padding: 5px;
+}
+
 .menu {
     width: 900px;
     display: flex;
