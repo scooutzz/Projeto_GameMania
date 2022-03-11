@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    
+    <script src="js/jquery-3.6.0.js"></script>
 </head>
 <body>
     <header>
@@ -32,6 +32,71 @@
     <div class="con_banner">
         <a href="login.html"><img src="img/consoles.jpg" alt="Consoles do Xbox"></a>
     </div>
+
+
+    <footer>
+        <section class="secao_footer container">
+            <!-- navegue -->
+
+            <div class="navegue">
+                <h1>navegue</h1>
+                <a href="#">consoles</a>
+                <a href="#">jogos</a>
+                <a href="#">acessórios</a>
+            </div>
+
+            <!-- recursos -->
+            <div class="recursos">
+                <h1>recursos</h1>
+                <a href="#">notícias</a>
+                <a href="#">suporte</a>
+                <a href="#">feedback</a>
+            </div>
+
+            <!-- social -->
+            <div class="social">
+                <h1>social</h1>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">email</a>
+            </div>
+
+            <!-- loja -->
+            <div class="loja">
+                <h1>loja</h1>
+                <a href="#">conta</a>
+                <a href="#">devolução</a>
+                <a href="#">rastreamento</a>
+            </div>
+
+            <!-- para devs -->
+            <div class="devs">
+                <h1>para devs</h1>
+                <a href="#">jogos</a>
+                <a href="#">programas</a>
+            </div>
+
+        </section>
+    </footer>
+
+    <script>
+
+        let menu = document.getElementById("menu");
+
+        function mostrarMenu() {
+            if (getComputedStyle(menu).display == "none") {
+                menu.style.display = "flex"
+            } else {
+                menu.style.display = "none"
+            }
+        }
+
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 </html>

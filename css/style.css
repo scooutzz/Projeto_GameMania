@@ -259,6 +259,10 @@ footer {
 
 /* css da página "login" */
 
+.campo input {
+    width: 290px;
+}
+
 .login-container {
     background-color: #212121;
     display: flex;
@@ -315,25 +319,19 @@ footer {
     font-size: 25px;
 }
 
-.campo input {
-    color: black;
+.submit {
+    color: white;
+    background-color: blue;
     border: 2px solid blue;
     width: 300px;
-    border-radius: 7px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .senha {
     margin-bottom: 30px;
-}
-
-.login-container a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    background-color: blue;
-    margin: 10px;
-    padding: 5px 20px;
-    border-radius: 10px;
 }
 
 
@@ -378,24 +376,41 @@ footer {
     .menu {
         display: none;
         flex-direction: column;
-        width: 130px;
-        height: 200px;
+        width: 155px;
+        height: 120px;
         background-color: black;
         border-radius: 15px;
         padding: 15px;
         position: absolute;
-        top: 0;
+        top: 5px;
         right: 70px;
+        justify-content: start;
+    }
+
+    .menu_ativo {
+        display: flex;
     }
 
     .menu a {
         text-align: center;
+        font-size: 20px;
     }
 
     .barras {
         display: inline-block;
         width: 60px;
     }
+
+    /* carousel */
+
+    .carousel-item h5 {
+        display: none;
+    }
+    .carousel-item p {
+        display: none;
+    }
+
+    
 
     .produtos img {
         max-width: 270px;
